@@ -1,0 +1,30 @@
+.primary_btn {
+	width: 250px;
+  height:px;
+  display: inline-block;
+  background: transparent;
+ font-weight:bold;
+  padding: 0px 50px;
+  color: rgb(110, 123, 160);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 48px;
+  border: 2px solid rgb(221, 43, 67);
+  border-radius: 15px;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 300ms linear 0s; }
+  .primary_btn:hover {
+     background: rgb(61, 233, 204);
+	 color: #fff;
+     }
+  .primary_btn.yellow_btn {
+    background: #6288ce !important ;
+    border: 1px solid #39e2e2 !important;
+    color: #f12d2d; }
+    .primary_btn.yellow_btn:hover {
+      background: transparent !important; }
